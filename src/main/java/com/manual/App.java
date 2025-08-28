@@ -138,8 +138,6 @@ public class App extends Application {
             sb.append(" ").append(secondNumber);
         
         previewText.setText(sb.toString().isEmpty() ? "Realiza un cálculo" : sb.toString());
-        previewText.styleProperty().setValue(
-                "--fx-text-fill: gray;");
         previewText.setVisible(operator != null);
     }
 
